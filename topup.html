@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Top Up</title>
+  <link rel="stylesheet" href="topup.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <div class="logo-container">
+      <img src="https://i.imgur.com/gAsizBX.jpeg" alt="Logo RAS STORE" class="logo">
+      <a class="title">RAS STORE</a>
+    </div>
+    <input type="search" name="" id="" class="input-search" placeholder="Cari Produk..." oninput="searchProducts()">
+    <button type="submit" class="input-submit">Cari</button>
+    <nav>
+      <ul>
+        <li><a href="#games">GAMES</a></li>
+        <li><a href="#PPOB">PPOB</a></li>
+        <li><a href="#BANTUAN">BANTUAN</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header -->
+
+  <!-- slider -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://i.imgur.com/LfVlOGW.jpeg" alt="Slide 1"style="width:80%; height:150px; margin-left: 40px;   border-style:solid; border-width:4px; border-color: white; border-radius:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"></div>
+      
+      <div class="swiper-slide"><img src="https://i.imgur.com/PUV1ENP.jpeg" alt="Slide 2" style="width:80%; height:150px;margin-left: 40px; border-style:solid; border-width:4px; border-color: white; border-radius:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"></div>
+      
+      <div class="swiper-slide"><img src="https://i.imgur.com/arVEMeu.jpeg" alt="Slide 3" style="width:80%; height:150px; margin-left: 40px;  border-style:solid; border-width:4px; border-color: white; border-radius:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"></div>
+      <!-- Tambahkan gambar atau konten lainnya di sini -->
+  <!-- slider -->
+    </div>
+    </div>
+  <!-- Games Populer -->
+  <br>
+  <div class="container-games" id="games">
+    <div class="judul-games">
+      <h1>🔥GAMES POPULER🔥</h1>
+    </div>
+    <div class="product-section" >
+      <div class="product-info">
+        <img src="https://i.imgur.com/hbRd2mA.jpeg" alt="Mobile Legends" class="product-image" onclick="navigateToProduct('#')">
+        <p class="product-text">Mobile Legends</p>
+      </div>
+      <div class="product-info">
+        <img src="https://imgbb.host/images/Picsart_24-05-08_17-24-17-605.jpeg" alt="Free Fire" class="product-image" onclick="navigateToProduct('https://freefire.com/')">
+        <p class="product-text">Free Fire</p>
+      </div>
+      <div class="product-info">
+        <img src="https://i.imgur.com/JL3eQak.jpeg" alt="PUBG Mobile" class="product-image" onclick="navigateToProduct('https://pubgmobile.com/')">
+        <p class="product-text">PUBG Mobile</p>
+      </div>
+      <div class="product-info">
+        <img src="https://imgbb.host/images/Picsart_24-05-08_17-33-43-780.jpeg" alt="Genshin Impact" class="product-image" onclick="navigateToProduct('https://genshinimpact.com/')">
+        <p class="product-text">Genshin Impact</p>
+      </div>
+    </div>
+    </div>
+  <!-- Sampai Sini -->
+  <br>
+  <!-- Games Lainnya -->
+  <!-- Games Lainnya -->
+<div class="container-games2">
+  <div class="judul-games2">
+    <h1>GAMES LAINNYA</h1>
+  </div>
+  <div class="product-section2" id="#">
+    <!-- Produk 1 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-40-16-578.jpeg" alt="Zepeto" class="product-image2" onclick="navigateToProduct('https://zepeto.com/')">
+      <p class="product-text2">Zepeto</p>
+    </div>
+    <!-- Produk 2 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-39-09-762.jpeg" alt="Higgs Domino" class="product-image2" onclick="navigateToProduct('https://freefire.com/')">
+      <p class="product-text2">Higgs Domino</p>
+    </div>
+    <!-- Produk 3 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-30-03-467.jpeg" alt="Arena Of Valor" class="product-image2" onclick="navigateToProduct('https://pubgmobile.com/')">
+      <p class="product-text2">Arena Of Valor</p>
+    </div>
+    <!-- Produk 4 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-37-33-857.jpeg" alt="Hago" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Hago</p>
+    </div>
+    <!-- Produk 5 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-36-15-938.jpeg" alt="Dragon Raja Sea" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Dragon Raja Sea</p>
+    </div>
+    <!-- Produk 6 -->
+    <div class="product-info2">
+      <img src="https://i.imgur.com/Rno3X00.jpeg" alt="Point Blank" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Point Blank</p>
+    </div>
+    <!-- Produk 7 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-28-34-590.jpeg" alt="Call Of Duty Mobile" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Call Of Duty</p>
+    </div>
+    <!-- Produk 8 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-32-01-101.jpeg" alt="Supersus" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Supersus</p>
+    </div>
+    <!-- Produk 9 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_17-27-31-945.jpeg" alt="Sausage Man" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Sausage Man</p>
+    </div>
+  </div>
+</div>
+<!-- Sampai Sini -->
+
+<!-- banner ppob -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="https://i.imgur.com/LfVlOGW.jpeg" alt="Slide 1"style="width:80%; height:150px; margin-left: 40px;   border-style:solid; border-width:4px; border-color: white; border-radius:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"></div>
+      
+      <div class="swiper-slide"><img src="https://i.imgur.com/PUV1ENP.jpeg" alt="Slide 2" style="width:80%; height:150px;margin-left: 40px; border-style:solid; border-width:4px; border-color: white; border-radius:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"></div>
+      
+      <div class="swiper-slide"><img src="https://i.imgur.com/arVEMeu.jpeg" alt="Slide 3" style="width:80%; height:150px; margin-left: 40px;  border-style:solid; border-width:4px; border-color: white; border-radius:10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);"></div>
+            
+    </div>
+    </div>
+
+<!-- PPOB -->
+<div class="container-games2" id="PPOB">
+  <div class="judul-games2">
+    <h1>PPOB LENGKAP</h1>
+  </div>
+  <div class="product-section2" >
+    <!-- Produk 1 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_15-15-05-123.jpeg" alt="Zepeto" class="product-image2" onclick="navigateToProduct('https://zepeto.com/')">
+      <p class="product-text2">Pulsa</p>
+    </div>
+    <!-- Produk 2 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_15-18-18-983.jpeg" alt="Higgs Domino" class="product-image2" onclick="navigateToProduct('https://freefire.com/')">
+      <p class="product-text2">Paket Data</p>
+    </div>
+    <!-- Produk 3 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_15-20-09-167.jpeg" alt="Arena Of Valor" class="product-image2" onclick="navigateToProduct('https://pubgmobile.com/')">
+      <p class="product-text2">Telepon & Sms</p>
+    </div>
+    <!-- Produk 4 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_16-53-56-873.jpeg" alt="Hago" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Inject Vouchers</p>
+    </div>
+    <!-- Produk 5 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_15-23-11-337.jpeg" alt="Dragon Raja Sea" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Masa Aktif</p>
+    </div>
+    <!-- Produk 6 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_16-30-23-299.jpeg" alt="Point Blank" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Vouchers</p>
+    </div>
+    <!-- Produk 7 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_15-45-51-241.jpeg" alt="Call Of Duty Mobile" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Token PLN</p>
+    </div>
+    <!-- Produk 8 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_16-05-33-349.jpeg" alt="Supersus" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Streaming</p>
+    </div>
+    <!-- Produk 9 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_16-19-17-446.jpeg" alt="Sausage Man" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Wifi ID</p>
+    </div>
+       <!-- Produk 9 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_16-28-00-584.jpeg" alt="Sausage Man" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">E-Wallet</p>
+    </div>
+       <!-- Produk 9 -->
+    <div class="product-info2">
+      <img src="https://imgbb.host/images/Picsart_24-05-08_16-33-08-819.jpeg" alt="Sausage Man" class="product-image2" onclick="navigateToProduct('https://genshinimpact.com/')">
+      <p class="product-text2">Tagihan</p>
+      </div>
+      <div class="product-info2">
+  </div>
+</div>
+</div>
+  
+ 
+
+  <!-- Tampilan Input Produk -->
+  <div class="search-results">
+    <!-- Hasil pencarian produk akan ditampilkan di sini -->
+    </div>
+<!-- paling bawah -->
+<div class="customer-service" id="BANTUAN">
+    <h2>Layanan Pelanggan</h2>
+    <p>Hubungi kami jika Anda memiliki pertanyaan atau masalah:</p>
+    <ul>
+        <li>Telepon: +628977301988</li>
+        <li>Email: ferioktavianm226@gmail.com</li>
+        <li>Telegram: @RasStoredmid</li>
+    </ul>
+</div>
+
+<!-- sampai sini -->
+  <!-- JavaScript -->
+  <script>
+    // Daftar produk Anda dengan tautan yang sesuai
+    const products = [
+    
+    <!-- Mobile Legends -->
+      { name: 'Mobile Legends', image: 'https://i.imgur.com/hbRd2mA.jpeg', link: '#' },
+      
+      <!-- Free Fire -->
+      { name: 'Free Fire', image: 'https://imgbb.host/images/Picsart_24-05-08_17-24-17-605.jpeg', link: '#' },
+      
+      <!-- PUBG Mobile -->
+      { name: 'PUBG Mobile', image: 'https://i.imgur.com/JL3eQak.jpeg', link: '#' },
+      
+      <!-- Genshin Impact -->
+      { name: 'Genshin Impact', image: 'https://imgbb.host/images/Picsart_24-05-08_17-33-43-780.jpeg', link: '#' }, 
+      
+      <!-- Zepeto -->
+    { name: 'Zepeto', image: 'https://imgbb.host/images/Picsart_24-05-08_17-40-16-578.jpeg', link: '#' }, 
+    
+    <!-- Higgs Domino -->
+    { name: 'Higgs Domino', image: 'https://imgbb.host/images/Picsart_24-05-08_17-39-09-762.jpeg', link: '#' }, 
+    
+    <!-- Arena Of Valor -->
+    { name: 'Arena Of Valor', image: 'https://imgbb.host/images/Picsart_24-05-08_17-30-03-467.jpeg', link: '#' }, 
+    
+    <!-- Hago -->
+    { name: 'Hago', image: 'https://imgbb.host/images/Picsart_24-05-08_17-37-33-857.jpeg', link: '#' }, 
+    
+    <!-- Dragon Raja Sea -->
+    { name: 'Dragon Raja Sea', image: 'https://imgbb.host/images/Picsart_24-05-08_17-36-15-938.jpeg', link: '#' }, 
+    
+    <!-- Point Blank -->
+    { name: 'Point Blank', image: 'https://i.imgur.com/Rno3X00.jpeg', link: '#' }, 
+        
+    <!-- Call Of Duty -->
+    { name: 'Call Of Duty', image: 'https://imgbb.host/images/Picsart_24-05-08_17-28-34-590.jpeg', link: '#' }, 
+            
+    <!-- Supersus -->
+    { name: 'Supersus', image: 'https://imgbb.host/images/Picsart_24-05-08_17-32-01-101.jpeg', link: '#' }, 
+          
+    <!-- Sausage Man -->
+    { name: 'Sausage Man', image: 'https://imgbb.host/images/Picsart_24-05-08_17-27-31-945.jpeg', link: '#' }, 
+    ];
+    
+
+function searchProducts() {
+  const query = document.querySelector('.input-search').value.toLowerCase();
+  const resultsContainer = document.querySelector('.search-results');
+  resultsContainer.innerHTML = '';
+  
+  if (query) {
+    const filteredProducts = products.filter(product => product.name.toLowerCase().includes(query));
+    if(filteredProducts.length > 0) {
+      filteredProducts.forEach(product => {
+        const productInfo = document.createElement('div');
+        productInfo.classList.add('search-product-info');
+        productInfo.innerHTML = `
+          <img src="${product.image}" alt="${product.name}" class="search-product-image">
+          <span class="search-product-text">${product.name}</span>
+        `;
+        productInfo.addEventListener('click', () => {
+          window.location.href = product.link;
+        });
+        resultsContainer.appendChild(productInfo);
+      });
+      resultsContainer.classList.add('show');
+    } else {
+      const notFoundContainer = document.createElement('div');
+      notFoundContainer.classList.add('not-found-container');
+
+      const notFoundMessage = document.createElement('div');
+      notFoundMessage.textContent = 'Produk tidak ditemukan';
+      notFoundMessage.classList.add('not-found-message'); // Tambahkan kelas CSS
+      notFoundContainer.appendChild(notFoundMessage);
+
+      // Tambahkan gambar "Produk Tidak Ditemukan"
+      const notFoundImage = document.createElement('img');
+      notFoundImage.src = 'https://imgbb.host/images/022-512.png'; // Ganti dengan URL gambar yang sesuai
+      notFoundImage.alt = 'Produk tidak ditemukan';
+      notFoundImage.classList.add('not-found-image'); // Tambahkan kelas CSS
+      notFoundContainer.appendChild(notFoundImage);
+
+      resultsContainer.appendChild(notFoundContainer);
+      resultsContainer.classList.add('show');
+    }
+  } else {
+    resultsContainer.classList.remove('show');
+  }
+}
+  </script>
+  
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper-container', {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,367 @@
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto+Slab:wght@100..900&family=Sriracha&family=Teko&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'tahoma', sans-serif;
+  background-color: whitesmoke;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* Header CSS */
+header {
+  position: relative;
+  text-align: center;
+  background-color: #001440;
+  color: #ffff;
+  padding: 20px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.sambutan {
+  margin-top: 0px;
+  font-size: 20px;
+}
+
+.title {
+  text-decoration: none;
+  color: white;
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.input-search {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+}
+
+.input-submit {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #4682B4;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.search-results {
+  position: absolute;
+  top: 220px;
+  left: 55px;
+  width: 220px;
+  background-color: white;
+  border: 2.2px solid black;
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+.search-results.show {
+  display: block;
+}
+
+.search-product-info {
+  padding: 10px;
+  border-bottom: 1.5px solid #ccc;
+  display: flex;
+  align-items: center;
+  width: 215px;
+}
+
+.search-product-info:last-child {
+    border-bottom: none;
+}
+
+.search-product-image {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.search-product-text {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Product Section CSS */
+.container-games {
+  display: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -10px; 
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), 
+              inset 1px 1px 5px rgba(255, 255, 255, 0.5), 
+              inset -1px -1px 5px rgba(0, 0, 0, 0.1); 
+  padding: 10px; 
+}
+
+.container-games2 {
+  display: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid #ccc; 
+  margin-top: 30px; 
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), 
+              inset 1px 1px 5px rgba(255, 255, 255, 0.5), 
+              inset -1px -1px 5px rgba(0, 0, 0, 0.1); 
+  padding: 10px;
+}
+
+
+
+.judul-games {
+  font-size: 11px; 
+  font-style: underline;
+  position: absolute; 
+  top: 10px; 
+  left: 5px; 
+  color: #4682B4;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.judul-games2 {
+  font-size: 11px; 
+  font-style: underline;
+  position: absolute; 
+  top: ;
+  left: 10px; 
+  color: #4682B4;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.product-text {
+  font-size: 12px; 
+  font-weight: bold;
+}
+
+.product-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-top: 30px; 
+}
+
+
+.product-info {
+  text-align: center;
+}
+
+.product-image {
+  max-width: 100%; 
+  height: auto;
+  border-radius: 15px; 
+  
+}
+
+/*  
+.container-games2 {
+  margin-top: 30px; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+*/
+/* games2 */
+
+.product-section2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.product-info2 {
+  text-align: center;
+  width: 22%; 
+  margin-bottom: 20px;
+}
+.product-info2:nth-child(n+5) {
+  margin-top: -10px;
+}
+.product-image2 {
+  max-width: 100%; 
+  height: auto; 
+  border-radius:15px;
+}
+
+.product-text2 {
+  font-size: 12px; 
+  font-weight: bold; 
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 5px;
+}
+
+nav ul li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1.5px;
+  background-color: #fff;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+/* Swiper Styles */
+.swiper-container {
+  margin-top: 30px;
+  margin-bottom: -20px;
+}
+
+.swiper-container {
+  margin-top: 20px; 
+  margin-bottom: 10px;
+}
+
+
+
+.container-games, .container-games2 {
+  position: relative;
+  min-height: 100px; 
+}
+
+.not-found-container {
+  display: flex;
+  align-items: center;
+}
+
+.not-found-image {
+  width: 30px;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  order: -1;
+  margin-left: 10px;
+  }
+
+.not-found-message {
+  font-weight: bold; /* Membuat teks menjadi tebal */
+}
+
+/* bantuan */
+
+.customer-service {
+    background-color: #001440;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.customer-service h2 {
+    color: #fff;  
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.customer-service p {
+    color: #ddd; 
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.customer-service ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customer-service li {
+    color: #ddd;  
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.customer-service li:before {
+    content: "\2022";  
+    color: #ccc; 
+    margin-right: 5px;
+}
+
+.customer-service li:last-child {
+    margin-bottom: 0;
+}
+
+/* bantuan end */
+
+/* Handphone 1  
+@media(max-width: 320px) {
+    .judul-games2 {
+        top: 46.5%; 
+    }
+    
+}
+
+
+/* Handphone 2  
+@media(max-width: 375px) {
+    .judul-games2 {
+        top: 655px;
+}
+
+/* Handphone 2 END */
